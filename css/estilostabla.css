@@ -1,0 +1,18 @@
+/* Estilo para la tabla */
+table {
+    width: 100%; /* La tabla ocupa el 100% del ancho disponible */
+    border-collapse: collapse; /* Fusiona los bordes de las celdas para evitar espacios dobles */
+}
+
+/* Estilos para las celdas de encabezado (th) y datos (td) */
+th, td {
+    border: 1px solid #501a9d; /* Borde de 1 píxel de grosor en color morado oscuro */
+    padding: 8px; /* Espaciado interno de 8 píxeles para mayor legibilidad */
+    text-align: left; /* Alinea el texto a la izquierda */
+}
+
+/* Estilo específico para las celdas de encabezado (th) */
+th {
+    background-color: #501a9d; /* Color de fondo morado oscuro para resaltar los encabezados */
+    color: white; /* Texto en color blanco para mejor contraste */
+}
