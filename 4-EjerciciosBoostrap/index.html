@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Importa la hoja de estilos de Bootstrap desde un CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    
+    <title>BOTONES BOOTSTRAP</title>
+</head>
+<body>
+
+    <!-- Contenedor principal que usa la clase Bootstrap 'container' para centrar el contenido -->
+    <div class="container"> 
+
+        <!-- Card de Bootstrap: componente para mostrar contenido en un cuadro con borde -->
+        <div class="card">
+            <h3>Mi primer card</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt temporibus in inventore placeat, voluptas natus quidem facilis dignissimos? Laborum et enim mollitia magni voluptates aliquam sunt esse ipsum velit. Harum!</p>
+        </div>
+
+        <br>
+
+        <!-- Botones con clases de Bootstrap para aplicar estilos predefinidos -->
+        <button class="btn btn-primary">Primer Botón</button> <!-- Azul (primario) -->
+        <button class="btn btn-danger">Segundo Botón</button> <!-- Rojo (peligro) -->
+        <button class="btn btn-warning">Tercer Botón</button> <!-- Amarillo (advertencia) -->
+        <button style="border-radius:25px;" class="btn btn-info">Cuarto Botón</button> <!-- Azul claro (información) con borde redondeado -->
+
+        <br><br>
+
+        <!-- Botones de Bootstrap con diferentes estilos -->
+        <div>
+            <!-- Botón con estilo primario (azul) -->
+            <button type="button" class="btn btn-primary">Primary</button>
+            <!-- Botón con estilo secundario (gris oscuro) -->
+            <button type="button" class="btn btn-secondary">Secondary</button>
+            <!-- Botón con estilo de éxito (verde) -->
+            <button type="button" class="btn btn-success">Success</button>
+            <!-- Botón con estilo de peligro (rojo) -->
+            <button type="button" class="btn btn-danger">Danger</button>
+            <!-- Botón con estilo de advertencia (amarillo) -->
+            <button type="button" class="btn btn-warning">Warning</button>
+            <!-- Botón con estilo de información (celeste) -->
+            <button type="button" class="btn btn-info">Info</button>
+            <!-- Botón con estilo claro (blanco con borde) -->
+            <button type="button" class="btn btn-light">Light</button>
+            <!-- Botón con estilo oscuro (negro) -->
+            <button type="button" class="btn btn-dark">Dark</button>
+            <!-- Botón con apariencia de enlace (se ve como un enlace pero actúa como botón) -->
+            <button type="button" class="btn btn-link">Link</button>
+        </div>
+        
+        <br>
+
+        <!-- Diferentes tipos de botones en Bootstrap -->
+        <div>
+            <a class="btn btn-primary" href="#" role="button">Link</a> <!-- Enlace estilizado como botón -->
+            <button class="btn btn-primary" type="submit">Button</button> <!-- Botón normal -->
+            <input class="btn btn-primary" type="button" value="Input"> <!-- Botón tipo input -->
+            <input class="btn btn-primary" type="submit" value="Submit"> <!-- Botón de envío -->
+            <input class="btn btn-primary" type="reset" value="Reset"> <!-- Botón para resetear un formulario -->
+        </div>
+
+        <br>
+
+        <!-- Botones con estilos outline (bordes en vez de relleno) -->
+        <div>
+            <button type="button" class="btn btn-outline-primary">Primary</button>
+            <button type="button" class="btn btn-outline-secondary">Secondary</button>
+            <button type="button" class="btn btn-outline-success">Success</button>
+            <button type="button" class="btn btn-outline-danger">Danger</button>
+            <button type="button" class="btn btn-outline-warning">Warning</button>
+            <button type="button" class="btn btn-outline-info">Info</button>
+            <button type="button" class="btn btn-outline-light">Light</button>
+            <button type="button" class="btn btn-outline-dark">Dark</button>
+        </div>
+
+        <br>
+
+        <!-- Botones con tamaños grandes en Bootstrap -->
+        <div>
+            <button type="button" class="btn btn-primary btn-lg">Large button</button>
+            <button type="button" class="btn btn-secondary btn-lg">Large button</button>
+        </div>
+
+        <br>
+
+        <!-- Botones con tamaños pequeños en Bootstrap -->
+        <div>
+            <button type="button" class="btn btn-primary btn-sm">Small button</button>
+            <button type="button" class="btn btn-secondary btn-sm">Small button</button>
+        </div>
+
+        <br>
+
+        <!-- Botón con estilos personalizados usando variables CSS de Bootstrap -->
+        <div>
+            <button type="button" class="btn btn-primary"
+                style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+                Custom button
+            </button>
+        </div>
+        <br>
+
+
+
+       <!-- Contenedor principal -->
+<div>
+    <!-- Botón con estilos personalizados de Bootstrap -->
+    <button type="button" class="btn btn-primary"
+        style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+        Custom button
+    </button>
+</div>
+<br>
+
+<!-- Botones deshabilitados -->
+<div>
+    <button type="button" class="btn btn-primary" disabled>Primary button</button>
+    <button type="button" class="btn btn-secondary" disabled>Button</button>
+    <button type="button" class="btn btn-outline-primary" disabled>Primary button</button>
+    <button type="button" class="btn btn-outline-secondary" disabled>Button</button>
+</div>
+<br>
+
+<!-- Enlaces estilizados como botones y deshabilitados -->
+<div>
+    <a class="btn btn-primary disabled" role="button" aria-disabled="true">Primary link</a>
+    <a class="btn btn-secondary disabled" role="button" aria-disabled="true">Link</a>
+</div>
+<br>
+
+<!-- Enlaces deshabilitados con href para accesibilidad -->
+<div>
+    <a href="#" class="btn btn-primary disabled" tabindex="-1" role="button" aria-disabled="true">Primary link</a>
+    <a href="#" class="btn btn-secondary disabled" tabindex="-1" role="button" aria-disabled="true">Link</a>
+</div>
+<br>
+
+<!-- Botones dispuestos en una cuadrícula con separación -->
+<div class="d-grid gap-2">
+    <button class="btn btn-primary" type="button">Button</button>
+    <button class="btn btn-primary" type="button">Button</button>
+</div>
+<br>
+
+<!-- Botones en bloque en pantallas grandes -->
+<div class="d-grid gap-2 d-md-block">
+    <button class="btn btn-primary" type="button">Button</button>
+    <button class="btn btn-primary" type="button">Button</button>
+</div>
+<br>
+
+<!-- Botones centrados en una columna de 6 -->
+<div class="d-grid gap-2 col-6 mx-auto">
+    <button class="btn btn-primary" type="button">Button</button>
+    <button class="btn btn-primary" type="button">Button</button>
+</div>
+<br>
+
+<!-- Botones alineados a la derecha en pantallas medianas y más grandes -->
+<div class="d-grid gap-2 d-md-flex justify-content-md-end">
+    <button class="btn btn-primary me-md-2" type="button">Button</button>
+    <button class="btn btn-primary" type="button">Button</button>
+</div>
+<br>
+
+<!-- Botones de tipo toggle -->
+<div>
+    <p class="d-inline-flex gap-1">
+        <button type="button" class="btn" data-bs-toggle="button">Toggle button</button>
+        <button type="button" class="btn active" data-bs-toggle="button" aria-pressed="true">Active toggle button</button>
+        <button type="button" class="btn" disabled data-bs-toggle="button">Disabled toggle button</button>
+    </p>
+    <p class="d-inline-flex gap-1">
+        <button type="button" class="btn btn-primary" data-bs-toggle="button">Toggle button</button>
+        <button type="button" class="btn btn-primary active" data-bs-toggle="button" aria-pressed="true">Active toggle button</button>
+        <button type="button" class="btn btn-primary" disabled data-bs-toggle="button">Disabled toggle button</button>
+    </p>
+</div>
+<br>
+
+<!-- Enlaces de tipo toggle -->
+<div>
+    <p class="d-inline-flex gap-1">
+        <a href="#" class="btn" role="button" data-bs-toggle="button">Toggle link</a>
+        <a href="#" class="btn active" role="button" data-bs-toggle="button" aria-pressed="true">Active toggle link</a>
+        <a class="btn disabled" aria-disabled="true" role="button" data-bs-toggle="button">Disabled toggle link</a>
+    </p>
+    <p class="d-inline-flex gap-1">
+        <a href="#" class="btn btn-primary" role="button" data-bs-toggle="button">Toggle link</a>
+        <a href="#" class="btn btn-primary active" role="button" data-bs-toggle="button" aria-pressed="true">Active toggle link</a>
+        <a class="btn btn-primary disabled" aria-disabled="true" role="button" data-bs-toggle="button">Disabled toggle link</a>
+    </p>
+</div>
+<br>
+
+<!-- Inclusión del script de Bootstrap para interactividad -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>

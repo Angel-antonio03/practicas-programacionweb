@@ -1,22 +1,27 @@
-
+button {
+    margin-bottom: 10px; /* Espacio entre botones verticalmente */
+    margin-right: 10px; /* Espacio entre botones horizontalmente */
+}
 /* Ejemplo 1 */
+/* Botón básico 1 */
 .basic-button-p {
-
-    font-size: 16px;
-    background-color: #ddda12;
-    color: white;
-    border: none;
-    cursor: pointer;
+    font-size: 16px; /* Define el tamaño del texto en 16 píxeles para que sea legible */
+    background-color: #ddda12; /* Establece el color de fondo en un tono amarillo */
+    color: white; /* Define el color del texto en blanco para generar contraste */
+    border: none; /* Elimina cualquier borde predeterminado del botón */
+    cursor: pointer; /* Cambia el cursor a una mano cuando se pasa sobre el botón */
 }
 
-.basic-button- {
-    padding: 10px 20px; 
-    font-size: 16px; 
-    background-color: #8dc98f; 
-    color: white; 
-    border: none;
-    cursor: pointer;
-    }
+/* Botón básico 2 */
+.basic-button-b {
+    padding: 10px 20px; /* Agrega un espacio interno: 10px arriba/abajo y 20px a los lados */
+    font-size: 16px; /* Define el tamaño del texto en 16 píxeles */
+    background-color: #8dc98f; /* Establece un color de fondo verde claro */
+    color: white; /* Define el color del texto en blanco para mejorar la visibilidad */
+    border: none; /* Elimina cualquier borde predeterminado del botón */
+    cursor: pointer; /* Cambia el cursor a una mano para indicar que el botón es interactivo */
+}
+
 
 .basic-button {
     padding: 10px 20px;
@@ -158,3 +163,4 @@ transition: 0s;
     border-radius: 50px;
     cursor: pointer;
 }
+
