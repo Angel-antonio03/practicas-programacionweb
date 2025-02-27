@@ -1,0 +1,63 @@
+/* Estilo para el contenedor */
+.container {
+    background-color: yellow;
+    padding: 20px;
+    border-radius: 10px;
+    width: 50%;
+    margin: auto;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo para el título */
+h1 {
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+}
+
+/* Estilo para las etiquetas label */
+label {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #555;
+    font-weight: bold;
+}
+
+/* Estilo para los inputs, select y botón */
+input, select, button {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+/* Estilo mejorado para el botón */
+button {
+    background-color: #007bff;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 12px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+/* Agregar efecto hover al botón */
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Icono dentro del botón */
+button::before {
+    content: "🚀"; /* Emoji como icono */
+    font-size: 18px;
+}
