@@ -1,63 +1,64 @@
 /* Estilo para el contenedor */
 .container {
-    background-color: yellow;
-    padding: 20px;
-    border-radius: 10px;
-    width: 50%;
-    margin: auto;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: rgb(99, 0, 142); /* Color de fondo amarillo */
+    padding: 20px; /* Espaciado interno de 20px */
+    border-radius: 10px; /* Bordes redondeados de 10px */
+    width: 50%; /* Ancho del contenedor al 50% */
+    margin: auto; /* Centrar el contenedor */
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2); /* Sombra ligera para dar profundidad */
+    
 }
 
 /* Estilo para el título */
 h1 {
-    font-family: Arial, sans-serif;
-    font-size: 24px;
-    color: #333;
-    text-align: center;
+    font-family: Arial, sans-serif; /* Fuente del título */
+    font-size: 35px; /* Tamaño del texto */
+    color: #fff021; /* Color oscuro para el texto */
+    text-align: center; /* Centrar el título */
 }
 
 /* Estilo para las etiquetas label */
 label {
-    font-family: Arial, sans-serif;
-    font-size: 16px;
-    color: #555;
-    font-weight: bold;
+    font-family: Arial, sans-serif; /* Fuente del texto */
+    font-size: 16px; /* Tamaño del texto */
+    color: #ffde06; /* Color gris oscuro */
+    font-weight: bold; /* Negrita para resaltar */
 }
 
 /* Estilo para los inputs, select y botón */
 input, select, button {
-    padding: 10px;
-    margin: 5px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-    font-size: 14px;
+    padding: 10px; /* Espaciado interno */
+    margin: 5px; /* Margen alrededor */
+    border-radius: 5px; /* Bordes redondeados */
+    border: 1px solid #ccc; /* Borde gris claro */
+    font-size: 14px; /* Tamaño del texto */
 }
 
 /* Estilo mejorado para el botón */
 button {
-    background-color: #007bff;
-    color: white;
-    font-family: Arial, sans-serif;
-    font-size: 16px;
-    font-weight: bold;
-    border: none;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 8px;
-    padding: 12px;
-    width: 100%;
-    border-radius: 5px;
+    background-color: #ffde06; /* Color azul del botón */
+    color: rgb(117, 1, 195); /* Texto en color blanco */
+    font-family: Arial, sans-serif; /* Fuente del texto */
+    font-size: 16px; /* Tamaño del texto */
+    font-weight: bold; /* Negrita para mejor visibilidad */
+    border: none; /* Sin borde */                 
+    cursor: pointer; /* Cursor en forma de mano */
+    display: flex; /* Uso de flexbox para centrar contenido */
+    align-items: center; /* Alinear verticalmente el contenido */
+    justify-content: center; /* Centrar horizontalmente */
+    gap: 8px; /* Espaciado entre elementos dentro del botón */
+    padding: 12px; /* Espaciado interno */
+    width: 100%; /* Ancho completo */
+    border-radius: 5px; /* Bordes redondeados */
 }
 
 /* Agregar efecto hover al botón */
 button:hover {
-    background-color: #0056b3;
+    background-color: #ebc400; /* Cambio de color al pasar el cursor */
 }
 
 /* Icono dentro del botón */
 button::before {
-    content: "🚀"; /* Emoji como icono */
-    font-size: 18px;
+    content: "📤"; /* Emoji como icono */
+    font-size: 18px; /* Tamaño del icono */
 }

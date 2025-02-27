@@ -1,38 +1,40 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html> <!-- Define el tipo de documento como HTML5 -->
+<html lang="en"> <!-- Inicia el documento HTML y especifica el idioma -->
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="formulario.css">
-    <title>Document</title>
+    <meta charset="UTF-8"> <!-- Especifica la codificación de caracteres como UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Hace que el diseño sea responsivo en dispositivos móviles -->
+    <link rel="stylesheet" href="formulario.css"> <!-- Enlaza una hoja de estilos CSS externa -->
+    <title>Document</title> <!-- Define el título de la página que aparece en la pestaña del navegador -->
 </head>
 <body>
   
-    <div class="container">
-        <h1>Formulario de ejemplo</h1>
-        <form action="/submit" method="post">
-            <label for="name">Nombre:</label>
-            <input type="text" id="name" name="name" required><br><br>
+    <div class="container"> <!-- Contenedor principal para centrar y dar estilo al formulario -->
+        <h1>Formulario de ejemplo</h1> <!-- Título principal del formulario -->
+        <form action="/submit" method="post"> <!-- Define un formulario que enviará los datos a "/submit" con el método POST -->
+            
+            <label for="name">Nombre:</label> <!-- Etiqueta descriptiva para el campo de nombre -->
+            <input type="text" id="name" name="name" required> <!-- Campo de entrada de texto para el nombre, obligatorio -->
+            <br><br> <!-- Saltos de línea para separación visual -->
     
-            <label for="email">Correo electrónico:</label>
-            <input type="email" id="email" name="email" required><br><br>
+            <label for="email">Correo electrónico:</label> <!-- Etiqueta descriptiva para el campo de correo -->
+            <input type="email" id="email" name="email" required> <!-- Campo de entrada para email, obligatorio -->
+            <br><br>
     
-            <label for="city">Ciudad:</label>
-            <select id="city" name="city">
-                <option value="poo">POO</option>
-                <option value="ai">IA</option>
-                <option value="ai">TLAXIACO</option>
-                <option value="ai">OAXACA</option>
-            </select><br><br>
+            <label for="city">Ciudad:</label> <!-- Etiqueta para el campo de selección de ciudad -->
+            <select id="city" name="city"> <!-- Menú desplegable para seleccionar una ciudad -->
+                <option value="poo">POO</option> <!-- Opción con valor "poo" -->
+                <option value="ai">IA</option> <!-- Opción con valor "ai" (tiene valores repetidos, lo cual debería corregirse) -->
+                <option value="ai">TLAXIACO</option> <!-- Opción con valor "ai" (valor repetido, debería corregirse) -->
+                <option value="ai">OAXACA</option> <!-- Opción con valor "ai" (valor repetido, debería corregirse) -->
+            </select>
+            <br><br>
     
-            <button type="submit">Enviar</button>
+            <button type="submit">Enviar</button> <!-- Botón para enviar el formulario -->
         </form>
     </div>
     
-
 </body>
 </html>
-
 
 
 
