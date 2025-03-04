@@ -1,0 +1,56 @@
+button {
+    margin-bottom: 10px; /* Espacio entre botones verticalmente */
+    margin-right: 10px; /* Espacio entre botones horizontalmente */
+}
+
+/* Botón básico 2 */
+.basic-button-b {
+    padding: 10px 20px; /* Agrega un espacio interno: 10px arriba/abajo y 20px a los lados */
+    font-size: 16px; /* Define el tamaño del texto en 16 píxeles */
+    background-color: #24de2a; /* Establece un color de fondo verde claro */
+    color: white; /* Define el color del texto en blanco para mejorar la visibilidad */
+    border: none; /* Elimina cualquier borde predeterminado del botón */
+    cursor: pointer; /* Cambia el cursor a una mano para indicar que el botón es interactivo */
+}
+
+.extreme-round-button {
+    padding: 10px 30px;
+    font-size: 16px;
+    background-color: #9C27B0;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.icon-button {
+    padding: 10px 20px; 
+    font-size: 16px; 
+    background-color: #0066ba; 
+    color: white; 
+    border: none; 
+    border-radius: 5px;
+    cursor: pointer; 
+    display: flex;
+    align-items: center;
+    }
+.icon-button i { 
+    margin-right: 25px;
+}
+.fancy-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #2801d5;
+    color: #fff309;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.fancy-button i {
+    margin-right: 25px;
+}

@@ -3,15 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+    <!-- En esta parte del codigo coloque 2 links, uno hace referecia a los iconos que usare en el 4to y 5to cuadro, asi tambien 
+     hago una referencia a una hoja de estilos llamado row.css donde colocare los estilos de el promer cajon de botones asi como el 
+     de el 4to y 5to cajon, asi como las dimenciones y colores de los iconos-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="row.css">
+    <!-- LINK DE BOOTSTRAP, Para trabajar con el segundo cajon -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <title>Row</title>
+    <title>Boton Basico</title>
 </head>
 <body>
     <div class="container">
         <div class="row">
             <h1 class="text-center">Uso del row</h1>
-
+<!-- PRIMER CARD -->
             <div class="col-md-6">
                 <div class="card">
                     <div style="background-color: rgb(191, 127, 0); color: #ffff;" class="card-header">
@@ -24,7 +30,7 @@
                     </div>
                 </div>
             </div>
-
+<!-- SEGUNDO CARD -->
             <div class="col-md-6">
                 <div class="card">
                     <div style="background-color: rgb(0, 127, 63); color: #ffff;" class="card-header">
@@ -40,56 +46,133 @@
        
 
         
-     
+     <!--PRIMER CAJON, "BOTONES CON CSS"  -->
+     <!-- En estepromer row la funcion es que contenga botones con css, lo que hice fu declarar mis botones basicos dentro
+      del card body que es el cuerpo de nuestro row, y para los estilos de los botones los declare en su css,
+      en el encabezado los estilos los declare en el mismo html como se muestra a continuacion, y asi hice con el resto de mis cajones
+      o row, solo fu cambiando el titulo y el color. -->
 <div class="row mt-4">
     <div class="col-md-4">
         <div class="card">
+            <div style="background-color: rgb(69, 1, 121); color: #ffff;" class="card-header">
+                <h6 class="text-center">BOTONES CON CSS</h6>
+            </div>
+            <div class="card-body text-center">
+                <!-- en el card body se le agrega el text=center para que cualquier cosa que coloquemos dentro del cuerpo del row quede centrado
+                 esto lo aplique a todo los demas row -->
+                <button class="basic-button-b">Botón Básico 1</button>
+    <button class="extreme-round-button">Redondeado Extremo</button>
             
-            <div class="card-header"></div>
-            <button class="btn btn-primary">Primer Botón</button> <!-- Azul (primario) -->
-            <button class="btn btn-danger">Segundo Botón</button> <!-- Rojo (peligro) -->
-            <div class="card-body"></div>
+            </div>
             
         </div>
     </div>
+
+
+
+
+
+<!-- SEGUNDO CAJON, "BOTONES CON BOOTSTRAP" -->
+ <!-- en este segundo row lo que gicimos fue usar botones con bootstrap, como ya realice esta practica solo me basto copiarlo de mi ejercicio
+  anterior y pegar en la parte superior la referencia a botsstrap -->
     <div class="col-md-4">
         <div class="card">
-            <div class="card-header"></div>
-            <button type="button" class="btn btn-primary">Primary</button>
-            <!-- Botón con estilo secundario (gris oscuro) -->
-            <button type="button" class="btn btn-secondary">Secondary</button>
-            <!-- Botón con estilo de éxito (verde) -->
-            <button type="button" class="btn btn-success">Success</button>
-            <!-- Botón con estilo de peligro (rojo) -->
-            <button type="button" class="btn btn-danger">Danger</button>
-            <div class="card-body"></div>
+            <div style="background-color: rgb(10, 0, 143); color: #ffff;" class="card-header">
+            <h6 class="text-center">BOTONES CON BOOTSTRAP</h6>
+            </div>
+            <div class="card-body text-center">
+                <!-- Botones con estilos outline (bordes en vez de relleno) -->
+                <button type="button" class="btn btn-outline-primary">Primary</button>=
+            <button type="button" class="btn btn-outline-secondary">Secondary</button>
+            <button type="button" class="btn btn-outline-success">Success</button>
+            <button type="button" class="btn btn-outline-danger">Danger</button>
+            </div>
         </div>
     </div>
+
+
+
+
+
+
+
+<!-- TERCER CAJON, "IMAGENES" -->
+ <!-- en este row lo que se hizo fue insertar 2 imagenes a travez de img src y solo rellenamos con el link de la imagen luego un alt para
+  darle un nombre, seguido de apartados como width y height para darle dimenciones a la imagen, todo esto dentro del card body.    -->
     <div class="col-md-4">
         <div class="card">
-            <div class="card-header"></div>
-            <div class="card-body"></div>
+            <div style="background-color: rgb(176, 25, 25); color: #ffff;" class="card-header">
+                <h6 class="text-center">IMAGENES</h6>
+                </div>
+            <div class="card-body text-center">
+                <img src="https://cdn-3.motorsport.com/images/amp/2QzKqMAY/s1000/50-ferrari-af-corse-ferrari-49.jpg" alt="Imagen 1" width="75%" height="100px">
+                <br>  
+            <img src="https://www.blackbookmotorsport.com/wp-content/uploads/2023/11/ferrari-world-endurance-championship-wec-le-mans-hypercar.jpg" alt="Imagen 2" width="75%" height="100px">
+            </div>
         </div>
     </div>
 </div> <!-- Cierra correctamente la primera fila -->
 
+
+
+
+
+
+
+
+<!-- CUARTO CAJON, "BOTON CON ICONO LIKE"  -->
+ <!-- En este row lo que teniamos que hacer es insertar 2 borones con la peculiaridad de que estos cuentan con iconos, y los pasos
+  son los mismos que los primeros botones que realizamos en el row 1, solo declaramos los botones dentro del card body y en el css es donde le damos los estilos
+  al boton y al icono.  -->
+ 
 <div class="row mt-4">
-    <div class="col-md-2">  <!-- Corrección de 'cold-md-2' a 'col-md-2' -->
+    <div class="col-md-2">  
         <div class="card">
-            <div class="card-header"></div>
-            <div class="card-body"></div>
+            <div style="background-color: rgb(0, 101, 12); color: #ffff;" class="card-header">
+                <h6 class="text-center">BOTON CON ICONO</h6>
+                </div>
+            <div class="card-body text-center">
+                <button class="icon-button"><i class="fas fa-thumbs-up"></i> Me Gusta</button>
+            </div> 
         </div>
     </div>
+
+
+
+
+
+<!-- QUINTO CAJON, "BOTON CON ICONOS ESTRELLA" -->
+ <!-- aqui son exactamente los mismos paso que el cuarto row  -->
     <div class="col-md-2">
         <div class="card">
-            <div class="card-header"></div>
-            <div class="card-body"></div>
+            <div style="background-color: rgb(143, 0, 110); color: #ffff;" class="card-header">
+                <h6 class="text-center">BOTON CON ICONO</h6>
+                </div>
+            <div class="card-body text-center">
+                 <button class="fancy-button"><i class="fas fa-star"></i> Botón Elegante</button>
+            </div>
         </div>
+
+
+
+
+
+
+<!-- SEXTO CAJON, "TERCER CARD" -->
+ <!-- en esteultimo row se le tiene que insertar un texto seguido de una imagen y como en lo anterior todo ira dentro del card boy
+  con un p style seguido de font-style:italic; le daremo un estilo al texto que querramos colocar, se cierra esa llave y se abre 
+  otra para la imagen donde declaramos el codigo para insertar una imagen y en la cual solo colocamos el link, y en seguida los 
+  parametros de la imagen.-->
     </div>
     <div class="col-md-6">
         <div class="card">
-            <div class="card-header"></div>
-            <div class="card-body"></div>
+            <div style="background-color: rgb(0, 136, 143); color: #ffff;" class="card-header">
+                <h6 class="text-center">TERCER CARD</h6>
+                </div>
+                <div class="card-body text-center">
+                    <p style="font-style:italic;">Lamborghini Squadra Corse escribirá una nueva página de su historia entrando por primera vez en la clase reina del IMSA WeatherTech SportsCar Championship como factory team oficial. Lamborghini SC63 entra en su segunda temporada de carreras tras debutar tanto en el IMSA como en el FIA WEC en 2024.</p>
+                    <img src="https://racer.com/wp-content/uploads/sites/85/2024/11/1020163827-LAT-20240510-63-2MDH7707-1.jpg?w=1000&h=580&crop=1" alt="Imagen tercer Card" width="75%" height="200px">
+                </div>
         </div>
     </div>
 </div> 
