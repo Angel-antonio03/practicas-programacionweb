@@ -3,7 +3,9 @@ button {
     margin-right: 10px; /* Espacio entre botones horizontalmente */
 }
 
-/* Botón básico 2 */
+
+
+/* Botón 1 */
 .basic-button-b {
     padding: 10px 20px; /* Agrega un espacio interno: 10px arriba/abajo y 20px a los lados */
     font-size: 16px; /* Define el tamaño del texto en 16 píxeles */
@@ -13,6 +15,8 @@ button {
     cursor: pointer; /* Cambia el cursor a una mano para indicar que el botón es interactivo */
 }
 
+
+/* Botón 2 */
 .extreme-round-button {
     padding: 10px 30px;
     font-size: 16px;
@@ -23,6 +27,9 @@ button {
     cursor: pointer;
 }
 
+
+
+/* boton con icono like */
 .icon-button {
     padding: 10px 20px; 
     font-size: 16px; 
@@ -37,6 +44,8 @@ button {
 .icon-button i { 
     margin-right: 25px;
 }
+/* boton con icono estrella */
+
 .fancy-button {
     padding: 10px 20px;
     font-size: 16px;
